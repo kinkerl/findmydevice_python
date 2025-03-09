@@ -70,11 +70,17 @@ pytest
 ```
 
 ### 3️⃣ Building the Package
-To build the package, run:
-```sh
-python -m build
-```
-This will generate a `dist/` directory with `.tar.gz` and `.whl` files.
+1. **Ensure you have Twine installed**
+   ```sh
+   pip install build
+   ```
+2. **Build the package**
+
+   To build the package, run:
+   ```sh
+   python -m build
+   ```
+   This will generate a `dist/` directory with `.tar.gz` and `.whl` files.
 
 ### 4️⃣ Uploading to PyPI
 1. **Ensure you have Twine installed**
