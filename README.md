@@ -18,9 +18,6 @@ pip install findmydevice
 
 ## 🚀 Quick start
 
-In this example, we create a reactor based on the data from this URL https://api.balkongas.de/metrics/6f1d3382-6b95-4adc-9d6f-6785ae0456f3/json/latest/
-
-
 ```python
 from findmydevice import FMDClient
 import logging 
