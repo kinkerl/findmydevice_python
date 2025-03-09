@@ -4,7 +4,7 @@ This is an unofficial Python package that allows you to interact with the [FindM
 
 It's main use is currently a reimplementation of the crypto and authentication involved when communicating with the api. 
 
-## Features and working commands
+## ✨ Features and working commands
 
 - Authenticate to the FindMyDeviceServer API.
 - Send a "ring" to the server

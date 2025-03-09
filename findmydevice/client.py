@@ -66,6 +66,9 @@ class FMDClient:
         logger.debug("private_key: %s", self.private_key)
 
     def command(self, command):
+        if not self.access_token:
+            raise PermissionError("Not yet authenticated. Please call `authenticate` first.")
+
         # Setup command signing
         now = int(time.time() * 1000)
         command_signed = sign(self.private_key, f"{now}:{command}".encode("ASCII"))
