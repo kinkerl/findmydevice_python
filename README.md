@@ -1,8 +1,8 @@
-# Unofficial FindMyDeviceServer Python Client
+# Unofficial FindMyDevice(FMD) Server Python Client
 
-This is an unofficial Python package that allows you to interact with the [FindMyDeviceServer](https://gitlab.com/Nulide/findmydeviceserver) API. FindMyDeviceServer is a server designed to communicate with the FMD Android app, helping you locate and control your devices.
+This is an unofficial Python package that allows you to interact with the [FindMyDevice Server](https://gitlab.com/Nulide/findmydeviceserver) API. FindMyDevice Server is a server designed to communicate with the FMD Android app, helping you locate and control your devices.
 
-It's main use is currently a reimplementation of the crypto and authentication involved when communicating with the api. 
+The main use of this package is currently a reimplementation of the crypto and authentication involved when communicating with the api. 
 
 ## ✨ Features and working commands
 
